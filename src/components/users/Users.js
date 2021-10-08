@@ -8,7 +8,7 @@ const Users =({loading,users})=> {
         return <Spinner />
     }else{
         return (
-            <div className="row">
+            <div className="row justify-content-md-center">
                 {
                     users.map(user=>(
                     <UserItem key={user.id} user={user}/>
