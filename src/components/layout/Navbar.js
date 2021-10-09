@@ -6,14 +6,7 @@ const Navbar = ({icon,title}) => {
                 <h1>
                     <i className={icon}></i> {title}
                 </h1>
-                <form className="text-center">
-                    <button   className="btn btn-sm btn-toolbar btn-success">
-                    <i class="fas fa-arrow-alt-circle-left"></i>
-                    </button>
-                    <button className="btn btn-sm btn-toolbar btn-success">
-                    <i class="fas fa-arrow-alt-circle-right"></i>
-                    </button>
-                </form>
+                
             </nav>
         )
 }
